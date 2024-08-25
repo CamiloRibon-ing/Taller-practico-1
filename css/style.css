@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+background-color:#9AC8CD ;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    box-shadow: 0px 12px 250px yellowgreen;
+}
+div, body{
+    
+    box-sizing: border-box;
+}
+h1{
+background-color: springgreen;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.flexbox{
+    box-shadow: 0px 12px 250px yellowgreen;
+background-color: #F3FEB8;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border: 20px solid  springgreen;
+    justify-content: center;
+    order: 3;
+    transition-property:color ;
+    transition-duration: 1s;
+    transition-delay:2s ;
+    margin: 20px;
+    height: 100px;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 55px;
+}
+.flex-item{
+    box-shadow: 0px 12px 250px yellowgreen;
+    width: 180px;
+    background-color:#96E9C6;
+    color: aliceblue;
+    margin:0;
+    font-size: 26.5px;
+    text-align: center;
+    direction: ltr;
+    order: 2;
+    margin: 0;
+    border-radius: black;
+
+}
+.flex-item a:hover {
+    color: #8DECB4;
+    background-color: white;
+}
+
+.flex-item:first-child{
+    box-shadow: 0px 12px 250px yellowgreen;
+    background-color: #96E9C6;
+    order: 1;
+}
+.flex-item:last-child{
+    box-shadow: 0px 12px 250px yellowgreen;
+    background-color:#96E9C6;
+    color: #fff;
+}
+.flex-item:hover{
+    box-shadow: 0px 12px 250px yellowgreen;
+    background-color: khaki;
+}
